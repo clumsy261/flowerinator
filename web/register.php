@@ -1,7 +1,6 @@
 <form method="GET" action="">
-    <p>Username and passowrd?</p>
-    <input type="text" name="user">
-    <input type="text" name="pass">
+    <input type="text" name="user" placeholder="Username">
+    <input type="text" name="pass" placeholder="Password">
     <input type="hidden" name="page" value="<?php echo htmlspecialchars($_GET['page']);?>">
     <select name="welcome" type="text">
         <option value="login">login</option>
@@ -12,8 +11,8 @@
 <?php 
 function dump_user($res)
 {
-    $labels = ['Username:', 'Password:', 'Height (cm):', 'Water factor:', 'Light hours:', 'Last update:'];
-    $values = [$res[0], $_GET['pass']." BUT we actually store \"".$res[1]."\" for safety", $res[2], $res[3], $res[4], $res[5]];
+    $labels = ['Username:', 'Password:', 'Height (cm):', 'Set humidity:', 'Light hours:', 'Last update:','Water left:'];
+    $values = [$res[0], $_GET['pass']." BUT we actually store \"".$res[1]."\" for safety", $res[2], $res[3], $res[4], $res[5],$res[6]];
     
     echo "<table>";
     foreach ($labels as $i => $label) {

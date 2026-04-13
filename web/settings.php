@@ -7,13 +7,14 @@
             <option value="sol">soil humidity</option>
             <option value="led">light hours</option>
         </select>
+        <br>
         <label>Submit new value:</label>
         <input type="text" name="val">
     </fieldset>
     <fieldset>
         <p>confirm username and passowrd</p>
-        <input type="text" name="user">
-        <input type="text" name="pass">
+        <input type="text" name="user" placeholder="username">
+        <input type="text" name="pass" placeholder="password">
     </fieldset>
     <input type="hidden" name="page" value="<?php echo htmlspecialchars($_GET['page']);?>">
     <button type="submit">Submit</button>
