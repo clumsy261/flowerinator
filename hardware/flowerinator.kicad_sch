@@ -2106,21 +2106,32 @@
 		)
 	)
 	(junction
-		(at 182.88 101.6)
+		(at 209.55 101.6)
 		(diameter 0)
 		(color 132 0 0 1)
 		(uuid "06fc49b2-8610-4ba2-9e6b-c4e57db08548")
 	)
+	(junction
+		(at 180.34 101.6)
+		(diameter 0)
+		(color 132 0 0 1)
+		(uuid "82097ec8-67c4-4e77-8267-a3554cf4dfa7")
+	)
+	(junction
+		(at 241.3 101.6)
+		(diameter 0)
+		(color 132 0 0 1)
+		(uuid "dd3877d3-cefe-432f-8ac0-f833003ba045")
+	)
 	(wire
 		(pts
-			(xy 151.13 101.6) (xy 182.88 101.6)
+			(xy 233.68 95.25) (xy 233.68 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 132 0 0 1)
 		)
-		(uuid "0e58d5be-08aa-4eaa-9bcf-346cc1df9b93")
+		(uuid "00690a7e-542b-47d8-b948-c1245ce6e7ea")
 	)
 	(wire
 		(pts
@@ -2156,13 +2167,34 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 97.79) (xy 175.26 97.79)
+			(xy 137.16 95.25) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "394263a3-33be-41d0-a01f-350543d65e0a")
+		(uuid "2cf785cd-b658-4d8d-8915-6359991aa099")
+	)
+	(wire
+		(pts
+			(xy 137.16 95.25) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c0d23b-0a0c-44d9-b50d-0f1024763e6d")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(uuid "49c0dd2c-6ebb-449e-a0e3-ed9865cfea92")
 	)
 	(wire
 		(pts
@@ -2188,18 +2220,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 101.6) (xy 215.9 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 132 0 0 1)
-		)
-		(uuid "58e302be-21c6-4a88-b9dc-38f670b721c9")
-	)
-	(wire
-		(pts
-			(xy 175.26 97.79) (xy 175.26 109.22)
+			(xy 201.93 97.79) (xy 201.93 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2230,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 132.08) (xy 208.28 132.08)
+			(xy 92.71 132.08) (xy 172.72 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2240,16 +2261,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 105.41) (xy 133.35 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6788b1-890b-4567-b6a9-7057bfdf5e7c")
-	)
-	(wire
-		(pts
 			(xy 129.54 64.77) (xy 138.43 64.77)
 		)
 		(stroke
@@ -2261,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 97.79) (xy 201.93 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b58de3-504e-4989-9868-125dbb819ac3")
+	)
+	(wire
+		(pts
 			(xy 87.63 54.61) (xy 99.06 54.61)
 		)
 		(stroke
@@ -2268,6 +2289,17 @@
 			(type default)
 		)
 		(uuid "b1b0c89d-6ea3-4c85-aafe-c82ebe503683")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(uuid "b1f2d766-e964-479b-91bc-ca33be347df6")
 	)
 	(wire
 		(pts
@@ -2282,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 109.22) (xy 208.28 132.08)
+			(xy 172.72 109.22) (xy 172.72 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2300,6 +2332,17 @@
 			(color 132 0 0 1)
 		)
 		(uuid "ba11bb24-64aa-43e9-80b6-bc5ce5c13512")
+	)
+	(wire
+		(pts
+			(xy 209.55 101.6) (xy 241.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(uuid "bc2315fa-8d92-45e6-9852-c5db8d0a5d43")
 	)
 	(wire
 		(pts
@@ -2367,13 +2410,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 97.79) (xy 133.35 105.41)
+			(xy 129.54 105.41) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efc824b5-941b-4090-b8ed-88cc07660a71")
+		(uuid "dac632e4-f375-47d4-984a-8ff3717ec472")
+	)
+	(wire
+		(pts
+			(xy 129.54 107.95) (xy 139.7 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e657d1f5-2758-4bdc-9907-721c042a5de1")
 	)
 	(wire
 		(pts
@@ -2398,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 97.79) (xy 139.7 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71e1568-9ddb-4386-98b0-564becf48874")
+	)
+	(wire
+		(pts
 			(xy 167.64 77.47) (xy 129.54 77.47)
 		)
 		(stroke
@@ -2409,7 +2472,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 101.6 180)
+		(at 209.55 101.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2420,7 +2483,7 @@
 		(fields_autoplaced yes)
 		(uuid "06972633-3f33-48e1-a9f2-6bbcde591a00")
 		(property "Reference" "#PWR011"
-			(at 182.88 95.25 0)
+			(at 209.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +2494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 96.52 0)
+			(at 209.55 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2441,7 +2504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 101.6 0)
+			(at 209.55 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2452,7 +2515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 101.6 0)
+			(at 209.55 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2463,7 +2526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 101.6 0)
+			(at 209.55 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2743,7 +2806,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 182.88 116.84 180)
+		(at 209.55 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2754,7 +2817,7 @@
 		(fields_autoplaced yes)
 		(uuid "34e41abc-e450-4c61-afdf-11c9a5c513dc")
 		(property "Reference" "#PWR09"
-			(at 182.88 113.03 0)
+			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +2828,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 182.88 121.92 0)
+			(at 209.55 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2775,7 +2838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 116.84 0)
+			(at 209.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2786,7 +2849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 116.84 0)
+			(at 209.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,7 +2860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 182.88 116.84 0)
+			(at 209.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,8 +2883,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 241.3 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49e38a51-33af-4afe-a849-200ad73ccfad")
+		(property "Reference" "#PWR012"
+			(at 241.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c21e88f0-79fc-4bd7-8758-69ea79d2b820")
+		)
+		(instances
+			(project "flowerinator"
+				(path "/e14b91bc-1b09-4430-8db0-6a39a0423632"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor:CHT11")
-		(at 215.9 109.22 180)
+		(at 180.34 109.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2831,8 +2972,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50728be5-0108-4097-ae82-66d3eb85e004")
-		(property "Reference" "U4"
-			(at 222.25 107.9499 0)
+		(property "Reference" "U3"
+			(at 186.69 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2843,7 +2984,7 @@
 			)
 		)
 		(property "Value" "Height Sensor"
-			(at 222.25 110.4899 0)
+			(at 186.69 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2854,7 +2995,7 @@
 			)
 		)
 		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
-			(at 215.9 99.06 0)
+			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2865,7 +3006,7 @@
 			)
 		)
 		(property "Datasheet" "http://aosong.com/en/products-21.html"
-			(at 212.09 115.57 0)
+			(at 176.53 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,7 +3017,7 @@
 			)
 		)
 		(property "Description" "Temperature and humidity module"
-			(at 215.9 109.22 0)
+			(at 180.34 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2901,7 +3042,7 @@
 		(instances
 			(project "flowerinator"
 				(path "/e14b91bc-1b09-4430-8db0-6a39a0423632"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3071,7 +3212,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 215.9 116.84 180)
+		(at 180.34 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3082,7 +3223,7 @@
 		(fields_autoplaced yes)
 		(uuid "72f4557a-986b-4daa-8736-353b92a3fb7f")
 		(property "Reference" "#PWR08"
-			(at 215.9 113.03 0)
+			(at 180.34 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3093,7 +3234,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 215.9 121.92 0)
+			(at 180.34 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3103,7 +3244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 116.84 0)
+			(at 180.34 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3114,7 +3255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 116.84 0)
+			(at 180.34 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3125,7 +3266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 215.9 116.84 0)
+			(at 180.34 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3142,6 +3283,94 @@
 			(project "flowerinator"
 				(path "/e14b91bc-1b09-4430-8db0-6a39a0423632"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor:CHT11")
+		(at 241.3 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7951adc6-1295-47aa-933c-db499a9ff799")
+		(property "Reference" "U5"
+			(at 247.65 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Soil Sensor"
+			(at 247.65 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
+			(at 241.3 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://aosong.com/en/products-21.html"
+			(at 237.49 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Temperature and humidity module"
+			(at 241.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2031baf9-36d9-4ef7-9c71-130b9c25cd81")
+		)
+		(pin "2"
+			(uuid "73b67d7a-cda2-4186-b9c7-41b75b219dad")
+		)
+		(pin "1"
+			(uuid "9962ecce-bb0a-43f6-96a8-703cd4d384d8")
+		)
+		(pin "4"
+			(uuid "6b1d92ca-34c2-42e9-a85a-205e191a2a78")
+		)
+		(instances
+			(project "flowerinator"
+				(path "/e14b91bc-1b09-4430-8db0-6a39a0423632"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3222,6 +3451,84 @@
 			(project "flowerinator"
 				(path "/e14b91bc-1b09-4430-8db0-6a39a0423632"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 241.3 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bfe96a0-bb01-46ca-87d7-2ce445f8304d")
+		(property "Reference" "#PWR013"
+			(at 241.3 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 241.3 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 241.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b237e43-48e8-43a2-90ab-bcaaad4d7ae3")
+		)
+		(instances
+			(project "flowerinator"
+				(path "/e14b91bc-1b09-4430-8db0-6a39a0423632"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3969,7 +4276,7 @@
 	)
 	(symbol
 		(lib_id "Sensor:CHT11")
-		(at 182.88 109.22 180)
+		(at 209.55 109.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3979,8 +4286,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9ce3b86-d05e-4c1a-8141-1cad74b932ac")
-		(property "Reference" "U3"
-			(at 189.23 107.9499 0)
+		(property "Reference" "U4"
+			(at 215.9 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3991,7 +4298,7 @@
 			)
 		)
 		(property "Value" "Soil Sensor"
-			(at 189.23 110.4899 0)
+			(at 215.9 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4002,7 +4309,7 @@
 			)
 		)
 		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
-			(at 182.88 99.06 0)
+			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4013,7 +4320,7 @@
 			)
 		)
 		(property "Datasheet" "http://aosong.com/en/products-21.html"
-			(at 179.07 115.57 0)
+			(at 205.74 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +4331,7 @@
 			)
 		)
 		(property "Description" "Temperature and humidity module"
-			(at 182.88 109.22 0)
+			(at 209.55 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4356,7 @@
 		(instances
 			(project "flowerinator"
 				(path "/e14b91bc-1b09-4430-8db0-6a39a0423632"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
