@@ -1,9 +1,0 @@
-[toolchain]
-channel = "esp"
-
-[build]
-target = "xtensa-esp32-espidf"
-rustflags = ["-C", "target-feature=-crt-static"]
-
-[target.xtensa-esp32-espidf]
-linker = "ldproxy"
