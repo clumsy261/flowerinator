@@ -1,5 +1,3 @@
-target/
-export-esp.sh
 *.lck
 *.history
 .vscode

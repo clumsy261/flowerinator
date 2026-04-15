@@ -1,15 +1,22 @@
 <?php ///the site works with a database ran on 'localhost' with the user 'root', the db is called flowerzz and the table users
-	if(isset($_GET['api']))
+	const host ="localhost";
+    const host_user ="root";
+    const host_db = "flowerzz";
+    const host_table ="users";
+    const host_pass = "";
+    if(isset($_GET['api']))
 {
 	/// example localhost/?api=1d9bc30aeb90871be59fb1e9498b8a0a8455b0ac00c335b28a19950478e5b8e8&user=bon&change=height&val=12
 	/// or localhost/?api=1d9bc30aeb90871be59fb1e9498b8a0a8455b0ac00c335b28a19950478e5b8e8&user=bon&change=retrieve
-	$link =mysqli_connect('localhost', 'root');
-	mysqli_select_db($link,"flowerzz");
+
+    ///latest example localhost/?api=1d9bc30aeb90871be59fb1e9498b8a0a8455b0ac00c335b28a19950478e5b8e8&user=bon&wat=1&height=13
+	$link =mysqli_connect(host, host_user, host_pass);
+	mysqli_select_db($link,host_db);
     if(!$link)
         die("Could not conect to the database... try again later". file_get_contents('footer.html'));
 	function login($user,$pass,$link)
 	{
-		$query = "SELECT * from users where user=\"".$user."\" and pass=\"".$pass."\"";
+		$query = "SELECT * from ".host_table." where user=\"".$user."\" and pass=\"".$pass."\"";
 		$query = mysqli_query($link,$query);
 		if(!mysqli_num_rows($query)) die("No user with these credentials found".file_get_contents('footer.html'));
 
@@ -17,18 +24,14 @@
 	}  
 	$api = $_GET['api']; $change = $_GET['change']; $user=$_GET['user'];
 	$res=login($user,$api,$link);
-	if($change =="retrieve")
-		{
-			$res= mysqli_fetch_row($res);
-			die("\n WATER_SET=".$res[3]."\nLIGHT_SET=".$res[4]);
-		}
-	$val = $_GET['val'];
-	if($change=="height") $change = "height";
-    if($change=="wat") $change = "water2";
-    $query = "UPDATE users SET ".$change." = \"".$val."\" WHERE user = \"".$user."\" and pass = \"".$api."\"";
+	$tank = $_GET['wat'];
+    $height = $_GET['height'];
+    $query = "UPDATE ".host_table." SET "."water2"." = \"".$wat."\" WHERE user = \"".$user."\" and pass = \"".$api."\"";
     $query = mysqli_query($link, $query);
-    if(!$query) die("Something went wrong, please try again".file_get_contents('footer.html')); else die("succes");
-
+    $query = "UPDATE ".host_table." SET "."height"." = \"".$height."\" WHERE user = \"".$user."\" and pass = \"".$api."\"";
+    $query = mysqli_query($link, $query);
+    $res= mysqli_fetch_row($res);
+	die($res[3]."\n".$res[4]);
 }
 
 ?>

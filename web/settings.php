@@ -23,7 +23,7 @@
 <?php
 function login($user,$pass,$link)
 {
-    $query = "SELECT * from users where user=\"".$user."\" and pass=\"".$pass."\"";
+    $query = "SELECT * from ".host_table." where user=\"".$user."\" and pass=\"".$pass."\"";
     return mysqli_query($link, $query);
 }
 function check_login($res)
@@ -32,7 +32,7 @@ function check_login($res)
 }
 function check_usr($link,$val)
 {
-    $query = "SELECT * from users where user=\"".$val."\"";
+    $query = "SELECT * from ".host_table." where user=\"".$val."\"";
     $query = mysqli_query($link,$query);
     if(mysqli_num_rows($query)) die("Username is already taken, try something else".file_get_contents('footer.html'));
     return 1;
@@ -48,7 +48,7 @@ function change($link, $user, $pass, $val, $change)
     if($change=="usr") $change = "user";
     if($change=="psd") {$change = "pass"; $val = hash('sha256',$val);}
     if($change=="led") $change = "light";
-    $query = "UPDATE users SET ".$change." = \"".$val."\" WHERE user = \"".$user."\" and pass = \"".$pass."\"";
+    $query = "UPDATE ".host_table." SET ".$change." = \"".$val."\" WHERE user = \"".$user."\" and pass = \"".$pass."\"";
     $query = mysqli_query($link, $query);
     if(!$query) die("Something went wrong, please try again".file_get_contents('footer.html'));
 }
@@ -57,10 +57,10 @@ if(isset($_GET['user']) && isset($_GET['change']))
 {
     $user=htmlspecialchars($_GET['user']);
     $pass=hash('sha256',htmlspecialchars($_GET['pass']));
-    $link =mysqli_connect('localhost', 'root');
+    $link =mysqli_connect(host, host_user, host_pass);
     if(!$link)
         die("Could not conect to the database... try again later". file_get_contents('footer.html'));
-    mysqli_select_db($link, 'flowerzz');
+    mysqli_select_db($link, host_db);
     $res = login($user,$pass,$link);
     check_login($res);
     if(!$res)

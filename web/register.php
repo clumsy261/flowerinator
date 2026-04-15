@@ -22,13 +22,13 @@ function dump_user($res)
 }
 function signup($user, $pass, $link)
 {
-    $query = "SELECT * from users where user=\"".$user."\"";
+    $query = "SELECT * from ".host_table." where user=\"".$user."\"";
         $res = mysqli_query($link, $query);
         if(mysqli_num_rows($res))
         return "Username is already taken <br>";
         else
         {
-        $query = "INSERT INTO `users`(`user`, `pass`, `height`, `water`, `light`, `time`) VALUES ('".$user."','".$pass."','0','1','12','000000')";
+        $query = "INSERT INTO `".host_table."`(`user`, `pass`, `height`, `water`, `light`, `time`) VALUES ('".$user."','".$pass."','0','1','12','000000')";
         $res=mysqli_query($link,$query);
         if($res)
             return "Account created, now you can log in :D <br>";
@@ -38,7 +38,7 @@ function signup($user, $pass, $link)
 
 function login($user,$pass,$link)
 {
-    $query = "SELECT * from users where user=\"".$user."\" and pass=\"".$pass."\"";
+    $query = "SELECT * from ".host_table." where user=\"".$user."\" and pass=\"".$pass."\"";
     return mysqli_query($link, $query);
 }
 ///php enters with the following parameters -- page=register, user/pass= values or unset
@@ -47,10 +47,10 @@ if(isset($_GET['user']) && isset($_GET['pass']))
 {
     $pass = hash('sha256', htmlspecialchars($_GET['pass']));
     $user = htmlspecialchars($_GET['user']);
-    $link =mysqli_connect('localhost', 'root');
+    $link =mysqli_connect(host, host_user, host_pass);
     if(!$link)
         die("Could not conect to the database... try again later". file_get_contents('footer.php'));
-    mysqli_select_db($link, 'flowerzz');
+    mysqli_select_db($link, host_db);
     if($_GET['welcome']=="signup")
         die(signup($user,$pass,$link).file_get_contents("footer.html"));
     $res = login($user,$pass,$link);
