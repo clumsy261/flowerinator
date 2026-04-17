@@ -1,15 +1,12 @@
+<link rel="stylesheet" href="style.css">
+
 <?php ///the site works with a database ran on 'localhost' with the user 'root', the db is called flowerzz and the table users
-	const host ="localhost";
-    const host_user ="root";
-    const host_db = "flowerzz";
-    const host_table ="users";
-    const host_pass = "";
+include ('env.php');
+
     if(isset($_GET['api']))
 {
-	/// example localhost/?api=1d9bc30aeb90871be59fb1e9498b8a0a8455b0ac00c335b28a19950478e5b8e8&user=bon&change=height&val=12
-	/// or localhost/?api=1d9bc30aeb90871be59fb1e9498b8a0a8455b0ac00c335b28a19950478e5b8e8&user=bon&change=retrieve
 
-    ///latest example localhost/?api=1d9bc30aeb90871be59fb1e9498b8a0a8455b0ac00c335b28a19950478e5b8e8&user=bon&wat=1&height=13
+    ///latest example flowerinator.free.nf/?api=1d9bc30aeb90871be59fb1e9498b8a0a8455b0ac00c335b28a19950478e5b8e8&user=bon&wat=1&height=13
 	$link =mysqli_connect(host, host_user, host_pass);
 	mysqli_select_db($link,host_db);
     if(!$link)

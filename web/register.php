@@ -9,6 +9,7 @@
     <button type="submit">Submit</button>
 </form>
 <?php 
+
 function dump_user($res)
 {
     $labels = ['Username:', 'Password:', 'Height (cm):', 'Set humidity:', 'Light hours:', 'Last update:','Water left:'];
