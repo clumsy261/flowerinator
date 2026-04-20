@@ -5520,7 +5520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBV_2,5_2-GF-7,62_1x02_P7.62mm_Vertical_ThreadedFlange"
+		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical"
 			(at 41.91 129.54 0)
 			(hide yes)
 			(show_name no)
