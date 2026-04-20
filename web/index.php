@@ -1,12 +1,19 @@
 <link rel="stylesheet" href="style.css">
 
-<?php ///the site works with a database ran on 'localhost' with the user 'root', the db is called flowerzz and the table users
+<?php ///the site works with a database ran on 'HOST_DB' with the user 'HOST_user', the db is called flowerzz and the table users
 include ('env.php');
-
+/* env.php contents
+	const host ="<censored>";
+    const host_user ="<censored>";
+    const host_db = "flowerzz"; //or the db name
+    const host_table ="users";
+    const host_pass = "<censored>";
+*/
     if(isset($_GET['api']))
 {
 
-    ///latest example flowerinator.free.nf/?api=1d9bc30aeb90871be59fb1e9498b8a0a8455b0ac00c335b28a19950478e5b8e8&user=bon&wat=1&height=13
+    //latest example of device update
+    //flowerinator.free.nf/?api=1d9bc30aeb90871be59fb1e9498b8a0a8455b0ac00c335b28a19950478e5b8e8&user=bon&wat=1&height=13
 	$link =mysqli_connect(host, host_user, host_pass);
 	mysqli_select_db($link,host_db);
     if(!$link)

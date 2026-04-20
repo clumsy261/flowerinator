@@ -42,8 +42,8 @@ function login($user,$pass,$link)
     $query = "SELECT * from ".host_table." where user=\"".$user."\" and pass=\"".$pass."\"";
     return mysqli_query($link, $query);
 }
-///php enters with the following parameters -- page=register, user/pass= values or unset
-///hasshing looks like hash('sha256', 'The quick brown fox jumped over the lazy dog.')
+//php enters with the following parameters -- page=register, user/pass= values or unset
+//hashing looks like hash('sha256', 'The quick brown fox jumped over the lazy dog.')
 if(isset($_GET['user']) && isset($_GET['pass']))
 {
     $pass = hash('sha256', htmlspecialchars($_GET['pass']));

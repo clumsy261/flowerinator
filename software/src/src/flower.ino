@@ -8,31 +8,34 @@ const String user="user";//username
 #include "WiFi.h"
 #include <string>
 #include <HTTPClient.h>
+
+#define us_trig 1  //io1
+#define us_echo 2 //io2
+#define soil_1 3 //io3
+#define soil_2 4 //io4
+#define water 5 //io5
+#define touch 6 //io6
+#define motor 7 //io7
+#define led 18 //io18
+#define pump 19 //io19
+
 void setup() {
   Serial.begin(115200);
   Serial.println("Initializing WiFi...");
   WiFi.mode(WIFI_STA);
   Serial.println("Setup done!");
   configTime(0,0, "pool.ntp.org");
-  pinMode(34,INPUT);//first humidity sensor -- analogRead
-  pinMode(35,INPUT);//second humidity sensor -- analogRead
-  pinMode(36,INPUT);//water tank sensor -- digitalRead
-  pinMode(39,INPUT);//height sensor -- digitalRead
-  pinMode(17,OUTPUT);//height motor output
-  pinMode(14,OUTPUT);//growing light output
-  pinMode(12,OUTPUT);//water pump output
-  pinMode(23,OUTPUT);
-  pinMode(22,INPUT);
+  pinMode(soil_1,INPUT);//first humidity sensor -- analogRead
+  pinMode(soil_2,INPUT);//second humidity sensor -- analogRead
+  pinMode(water,INPUT);//water tank sensor -- digitalRead
+  pinMode(touch,INPUT);//touch sensor -- digitalRead
+  pinMode(motor,OUTPUT);//height motor output
+  pinMode(led,OUTPUT);//growing light output
+  pinMode(pump,OUTPUT);//water pump output
+  pinMode(us_trig,OUTPUT);//ultrasonic trigger
+  pinMode(us_echo,INPUT);//ultrasonic echo
 }
-#define us_trig 23  
-#define us_echo 22
-#define soil_1 34
-#define soil_2 35
-#define water 36
-#define touch 39
-#define motor 17
-#define led 14
-#define pump 12
+
 int water_ratio=50;
 int led_ratio=12;
 
