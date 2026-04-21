@@ -1,14 +1,14 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
-"J1","1","HY-SRF05 ultrasonic","","","","","https://www.aliexpress.com/item/1005007024869146.html"
-"J2,J3,J4","3","Screw_Terminal_01x02","","","","Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical","https://www.aliexpress.com/item/1005004679967893.html"
-"J5,J6,J7,J8,J10","5","Screw_Terminal_01x03","","","","Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_3-G_1x03_P7.50mm_Vertical","https://www.aliexpress.com/item/1005004679967893.html"
-"J9","1","Screw_Terminal_01x05","","","","Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_5-G_1x05_P7.50mm_Vertical",""
-"L1","1","Led Strip","","","","-","https://www.aliexpress.com/item/1005007486917090.html"
-"M1","1","Motor_DC","","","","12GA-N20 Miniature DC Metal Gear Motor 3V 3.7V 5V 6V 12V Low RPM High Torque 4WD Car Electric Screwdriver Door Lock Motor","https://www.aliexpress.com/item/4001195504462.html"
-"Q2,Q3,Q4","3","FDMS8350LET40","","","","Package_TO_SOT_SMD:TDSON-8-1","https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf"
-"U2","1","Water sensor","","","","-","https://www.aliexpress.com/item/1005007439447804.html"
-"U3","1","Touch Sensor","","","","-","https://www.aliexpress.com/item/1005009348155914.html"
-"U4","1","Soil Sensor","","","","Capacitive Soil Moisture Sensor Module Corrosion Resistant 3.3~5.5V for Arduino Moisture Detection","https://www.aliexpress.com/item/1005008744986367.html"
-"U5","1","Soil Sensor2","","","","Capacitive Soil Moisture Sensor Module Corrosion Resistant 3.3~5.5V for Arduino Moisture Detection","https://www.aliexpress.com/item/1005008744986367.html"
-"U6","1","ESP32-C3-DevKitM-1","","","","RF_Module:ESP32-C3-DevKitM-1","https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html"
-"W1","1","Water Pump","","","","DC 3V 5V Micro Submersible Mini Water Pump for Aquariums Fish Tank Fountain Hydroponics","https://www.aliexpress.com/item/1005004451967987.html"
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+J1,1,HY-SRF05 ultrasonic,,,,,https://www.aliexpress.com/item/1005007024869146.html
+"J2,J3,J4",3,Screw_Terminal_01x02,,,,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical",https://www.aliexpress.com/item/1005004679967893.html
+"J5,J6,J7,J8,J10",5,Screw_Terminal_01x03,,,,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_3-G_1x03_P7.50mm_Vertical",https://www.aliexpress.com/item/1005004679967893.html
+J9,1,Screw_Terminal_01x05,,,,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_5-G_1x05_P7.50mm_Vertical",https://www.aliexpress.com/item/1005004679967893.html
+L1,1,Led Strip,,,,-,https://www.aliexpress.com/item/1005007486917090.html
+M1,1,Motor_DC,,,,12GA-N20 Miniature DC Metal Gear Motor 3V 3.7V 5V 6V 12V Low RPM High Torque 4WD Car Electric Screwdriver Door Lock Motor,https://www.aliexpress.com/item/4001195504462.html
+"Q2,Q3,Q4",3,FDMS8350LET40,,,,Mosfet,https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf
+U2,1,Water sensor,,,,-,https://www.aliexpress.com/item/1005007439447804.html
+U3,1,Touch Sensor,,,,-,https://www.aliexpress.com/item/1005009348155914.html
+U4,1,Soil Sensor,,,,Capacitive Soil Moisture Sensor Module Corrosion Resistant 3.3~5.5V for Arduino Moisture Detection,https://www.aliexpress.com/item/1005008744986367.html
+U5,1,Soil Sensor2,,,,Capacitive Soil Moisture Sensor Module Corrosion Resistant 3.3~5.5V for Arduino Moisture Detection,https://www.aliexpress.com/item/1005008744986367.html
+U6,1,ESP32-C3-DevKitM-1,,,,RF_Module:ESP32-C3-DevKitM-1,https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html
+W1,1,Water Pump,,,,DC 3V 5V Micro Submersible Mini Water Pump for Aquariums Fish Tank Fountain Hydroponics,https://www.aliexpress.com/item/1005004451967987.html
