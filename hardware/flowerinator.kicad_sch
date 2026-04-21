@@ -4296,7 +4296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
+		(property "Footprint" "-"
 			(at 205.74 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4307,7 +4307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://aosong.com/en/products-21.html"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005007439447804.html"
 			(at 201.93 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4318,7 +4318,7 @@
 				)
 			)
 		)
-		(property "Description" "Temperature and humidity module"
+		(property "Description" "Horizontal Float Sensor Switch Side Mount Liquid Water Level Sensor Controller Automatic Water Pump Controller"
 			(at 205.74 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4479,7 +4479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DC 3V 5V Micro Submersible Mini Water Pump for Aquariums Fish Tank Fountain Hydroponics"
 			(at 231.14 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4490,7 +4490,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.instructables.com/Arduino-Soil-Moisture-Sensor/"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004451967987.html"
 			(at 231.14 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4655,7 +4655,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
+		(property "Footprint" "-"
 			(at 205.74 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -4666,7 +4666,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://aosong.com/en/products-21.html"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005009348155914.html"
 			(at 201.93 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4677,7 +4677,7 @@
 				)
 			)
 		)
-		(property "Description" "Temperature and humidity module"
+		(property "Description" "TTP223B Digital Touch Blue Digital Sensor Module Capacitive Touch Switch for Arduino"
 			(at 205.74 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4754,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004679967893.html"
 			(at 97.79 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4839,7 +4839,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004679967893.html"
 			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4913,7 +4913,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
+		(property "Footprint" "Capacitive Soil Moisture Sensor Module Corrosion Resistant 3.3~5.5V for Arduino Moisture Detection"
 			(at 205.74 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4924,7 +4924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://aosong.com/en/products-21.html"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005008744986367.html"
 			(at 201.93 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4969,7 +4969,7 @@
 	)
 	(symbol
 		(lib_id "lib:Led_strip")
-		(at 234.95 36.83 0)
+		(at 231.14 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4979,7 +4979,7 @@
 		(dnp no)
 		(uuid "7aeacf96-dc6f-48af-abf7-eec96f9f66f1")
 		(property "Reference" "L1"
-			(at 237.236 29.972 0)
+			(at 233.426 31.242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4990,7 +4990,7 @@
 			)
 		)
 		(property "Value" "Led Strip"
-			(at 238.76 40.894 0)
+			(at 234.95 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4999,8 +4999,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 234.95 36.83 0)
+		(property "Footprint" "-"
+			(at 231.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5010,8 +5010,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 234.95 36.83 0)
+		(property "Datasheet" "https://www.aliexpress.com/item/1005007486917090.html"
+			(at 231.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5021,8 +5021,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 36.83 0)
+		(property "Description" "Growing led lights"
+			(at 231.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +5090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005007024869146.html"
 			(at 242.57 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5275,7 +5275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004679967893.html"
 			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5347,7 +5347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "12GA-N20 Miniature DC Metal Gear Motor 3V 3.7V 5V 6V 12V Low RPM High Torque 4WD Car Electric Screwdriver Door Lock Motor"
 			(at 232.156 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5358,7 +5358,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/4001195504462.html"
 			(at 232.156 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5531,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004679967893.html"
 			(at 41.91 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5691,7 +5691,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004679967893.html"
 			(at 134.62 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5943,7 +5943,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004679967893.html"
 			(at 41.91 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6026,7 +6026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004679967893.html"
 			(at 41.91 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +6108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004679967893.html"
 			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6183,7 +6183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
+		(property "Footprint" "Capacitive Soil Moisture Sensor Module Corrosion Resistant 3.3~5.5V for Arduino Moisture Detection"
 			(at 205.74 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6194,7 +6194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://aosong.com/en/products-21.html"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005008744986367.html"
 			(at 201.93 93.98 0)
 			(hide yes)
 			(show_name no)
