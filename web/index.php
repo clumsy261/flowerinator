@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="style.css">
-
 <?php ///the site works with a database ran on 'HOST_DB' with the user 'HOST_user', the db is called flowerzz and the table users
 include ('env.php');
 /* env.php contents
@@ -39,6 +37,7 @@ include ('env.php');
 }
 
 ?>
+<link rel="stylesheet" href="style.css">
 <head> <p hidden> refrence header</p>
         <meta charset="UTF-8">
         <title>flowerinator</title>
